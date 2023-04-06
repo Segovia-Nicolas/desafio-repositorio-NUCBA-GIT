@@ -1,0 +1,133 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Nucba Primera Clase</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Bienvenidos a mi Perfil</h1>
+
+      <div class="imagen">
+        <img
+          src="https://lh3.googleusercontent.com/XSDv6XYZ973bdxMBDJ1adLHpSSUv4vsZJaePpms21eZDl-27JIfTHIYXnnudwPfAg_1-59bKAarMhWGNagsTR2Gq0pAWBUw6CwYwH2V0TzDXZT9z1fKvr1vCOrk8nxZ-U7wVfOJq"
+          alt="imagen principal"
+          srcset=""
+        />
+      </div>
+
+      <hr />
+
+      <h2>Mis datos:</h2>
+
+      <ul>
+        <li>Nombre: Nicolás</li>
+        <li>Apellido: Segovia</li>
+        <li>Edad: 37</li>
+        <li>Mail: nicosegovia1985@gmail.com</li>
+      </ul>
+      <hr />
+      <ol>
+        <li>Buenas a Todos los Nucbers!</li>
+        <li>Francia</li>
+      </ol>
+      <p>
+        Estoy muy contento de haber comenzado a estudiar en el Bootcamp de
+        <a
+          class="link"
+          href="https://www.nucba.com.ar/"
+          target="_blank"
+          title="ir a la web oficial de NUCBA"
+          >NUCBA</a
+        >
+        , las expectativas son muy altas. Cuento con un poco de conocimiento en
+        HTML, CSS y algo en Javascript (autodidacta). Un gran amigo me motivo
+        para que pueda perfeccionarme y pasar al siguiente nivel en el mundo IT.
+      </p>
+    </div>
+    <br />
+
+    <h3>Formulario de contacto</h3>
+
+    <form action="">
+      <fieldset>
+        <legend>Ingrese sus Datos:</legend>
+        <br />
+        <label for="nombre"> Nombre y Apellido: </label>
+        <input
+          type="text"
+          id="nombre"
+          placeholder="Ingrese Nombre y Apellido"
+          required
+        />
+        <br /><br />
+
+        <label
+          >Sos <span>Programador</span> :
+          <input id="Traine" type="radio" name="Dev" value="Trainee" />
+          Trainee</label
+        >
+        <label
+          ><input id="Junior" type="radio" name="Dev" value="Junior" />
+          Junior</label
+        >
+        <label
+          ><input id="Senior" type="radio" name="Dev" value="Senior" />
+          Senior</label
+        >
+        <br /><br />
+
+        <label for="Edad">Fecha de Nacimiento: </label>
+        <input type="date" name="Edad" id="Edad" required />
+        <br /><br />
+
+        <label for="direc"> Dirección: </label> <br />
+        <textarea
+          name="sugerencias"
+          id="direc"
+          cols="55"
+          rows="5"
+          placeholder="ingrese su dirección aquí..."
+        ></textarea>
+        <br /><br />
+        <label for="mail"> Email: </label>
+        <input
+          type="email"
+          name="mail"
+          id="mail"
+          placeholder="ejemplo@ejemplo.com"
+          required
+        />
+        <br /><br />
+
+        <label for="Contraseña"> Contraseña: </label>
+        <input
+          type="password"
+          name="Contraseña"
+          id="Contraseña"
+          placeholder="Ingrese su contraeña"
+          required
+        />
+        <br /><br />
+
+        <label class="terminos"
+          >Acepto terminos y condiciones:
+          <input id="" type="checkbox" name="" value="" />
+        </label>
+        <br /><br />
+
+        <label class="submit" for="enviar"></label>
+        <input
+          class="enviar"
+          type="submit"
+          name="enviar"
+          id="enviar"
+          required
+        />
+      </fieldset>
+    </form>
+  </body>
+</html>
